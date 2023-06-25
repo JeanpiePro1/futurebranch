@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tuma.com</title>
+</head>
+
+        <!--LE HEADER-->
+
+        <header class="header">
+            <div class="menutoggle" onclick="toggleMenu();"></div>
+                <nav class="navbar">
+                    <a href="#" onclick="toggleMenu();">Accueil</a>
+                    <a href="#" onclick="toggleMenu();">Nos Services</a>
+                    <!--a href="#" onclick="toggleMenu();">Services</a>
+                    <a href="#" onclick="toggleMenu();">Contact</a-->
+                </nav>
+                
+                <div class="logo">
+                    <h2 class="titre-text"><span>&#10070;T</span>uma</h2>
+                </div>
+
+                <form action="#" class="search-bar">
+                    <input type="text" placeholder="Recherche...">
+                    <button type="submit">&#9881;</button>
+                </form>  
+        </header>
+
+        <body style="width: 80%;margin: auto; align-items: center; justify-content: center;">
+
+
+    <!--LA PREMIERE SECTION-->
+
+
+        <section class="profil" id="profil">
+
+            <div class="container">
+
+                <div class="ligne">
+
+                    <div class="col">
+
+                        <div class="utilisateur">
+     
+                                
+                            <div class="profilphoto">
+                                <img src="./img/bk.jfif" alt="Photo de profil" />
+                            </div>
+
+                            <div class="profile__details">
+                                <h2 class="profile__details--name">Jeanpie Pro</h2>
+
+                                <div class="dp">
+                                <img src="./img/rdc.png" alt="drapeau RDC" />
+                                <span>RDC, Republique Democratique Du Congo</span>
+                                </div><br>
+                                
+                                <!--button class="blanc btn">Modifier  &#8634;</button>
+                                <button class="bleu btn">&#10006; Annuler</button--><br>
+                                <button class="bleu btn">&#187; Nos Offres</button>
+                                
+                                <a href="profil.html"><button class="bleu btn">Profil&#9787; </button></a>
+                                <div class="inputboiteacc"></div>
+
+                    
+                            </div>
+
+                        </div>
+                        
+
+                                             <!--LES INPUTS POUR LE BON DE COMMANDE-->
+
+
+                        <div class="col">
+                            <div class="bag">       
+                                
+                                <div class="conformacc">
+                                    <h3><span style="font-size: 2.2rem;">&#10070;V</span>
+                                        eillez entré les Inforamations Ici &#8595;</h3>
+            
+                                    <div class="inputboite">
+                                        <label for="">Colis</label> &#8250  
+                                    <input type="text" oninput="limitCharacters() " id="nom_colis"> 
+                                    </div>
+            
+                                    <div class="inputboite">
+                                        <label for="">Ramassage</label>
+                                        <input type="text" id="lieu_de_ramassage">
+                                    </div>
+
+                                    <div class="inputboite">
+                                        <label for="">Déstination</label> 
+                                        <input type="text" id="destination">
+                                    </div>
+
+                                    <div class="inputboite">
+                                        <label for="">Prix</label> 
+                                        <input type="text" id="prix">
+                                    </div>
+
+                                    <div class="inputboite">
+                                        <label for="">Date</label> 
+                                        <input type="date" id="date">
+                                    </div>
+                                
+                                </div>
+                                    <div class="command">
+                                            <button class="bonOk bleu btn" onclick="Commander(), ok()" id="bonOk">Bon de Commande  &#10003;</button><br><br>
+                                        <!--div class=""></div-->
+                                            <button class="button blanc btn">&#10070;  Historique</button>
+                                    </div>
+                                </div>
+
+                            <div class="content">                              
+                                <table id="commandes" >
+                                    <thead>
+                                        <th>Colis</th>
+                                        <th>Ramassage</th>
+                                        <th>Destination</th>
+                                        <th>Prix</th>
+                                        <th>Date</th>
+                                        <th>Arrivée</th>
+                                        <th>Operations</th>
+                                    </thead>
+                                </table>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="ligne">
+                    <div class="col">
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer>
+            
+        </footer>
+
+            <div class="container">
+                <div class="copyright">
+                    <p><a href="#"><span>&copy;T</span>uma </a> 2023 &#9997;</p><!--&#169;-->
+                </div>
+            </div>
+
+                <script src="./js/js.js"></script>
+
+</body>
+               
+</html>

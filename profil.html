@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tuma.com</title>
+</head>
+
+        <!--LE HEADER-->
+
+        <header class="header">
+            <div class="menutoggle" onclick="toggleMenu();"></div>
+            <nav class="navbar">
+                <a href="#" onclick="toggleMenu();">Accueil</a>
+                <a href="#" onclick="toggleMenu();">Nos Services</a>
+                <!--a href="#" onclick="toggleMenu();">Services</a>
+                <a href="#" onclick="toggleMenu();">Contact</a-->
+            </nav>
+                
+                <div class="logo">
+                    <h2 class="titre-text"><span>&#10070;T</span>uma</h2>
+                </div>
+
+                <form action="#" class="search-bar">
+                    <input type="text" placeholder="Recherche...">
+                    <button type="submit">&#9881;</button>
+                </form>  
+        </header>
+
+<body style="width: 80%;margin: auto; align-items: center; justify-content: center;">
+
+
+    <!--LA PREMIERE SECTION-->
+
+
+        <section class="profil" id="profil" style="padding: 4px;">
+
+            <div class="container">
+
+                <div class="ligne">
+
+                    <div class="col">
+
+                        <div class="utilisateurpro">
+     
+                                
+                            <div class="profilphoto">
+                                <img src="./img/pro.jpg" alt="Photo de profil" />
+                            </div>
+
+                            <div class="profile__details">
+                                <h2 class="profile__details--name">Jeanpie Pro</h2>
+
+                                    <button class="bleu btn" style="font-size: 1.2rem;">Modifier &#9787;</button><br>
+
+                                     <div class="inputboiteacc"></div>
+                                <div class="dp">
+                                    <h2 class="profile__details--name" >
+                                    
+
+                                         À propos de moi</h2>
+
+                                        <span>Jeanpie Pro</span><br>
+                                        <span>Date de naissance: 12 janvier</span><br>
+                                                
+                                        <img src="./img/rdc.png" alt="drapeau RDC" />
+                                        <span>RDC, Republique Democratique Du Congo</span>
+                                </div><br>
+                                
+                                    <span class="soulign"></span>
+
+                                <h2 class="profile__details--name" >
+                                    Biographie</h2>
+                                    <span>Bio</span><br><br>
+
+                                    <span class="soulign"></span>
+
+
+                                <h2 class="profile__details--name" >
+                                        Mon Compte</h2>
+                                        <span>Date d'inscription: 20 juin 2020</span>
+                                        <span></span>
+                                        <br>
+                                <style>
+
+                                    .utilisateurpro:not(:last-child) {
+                                        margin-bottom: 1rem;
+                                    }
+                                    
+                                    .utilisateurpro {
+                                        padding: 6.5rem 2rem 2.5rem;
+                                        position: relative;
+                                    }
+                                    .utilisateurpro::before {
+                                        content: "";
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 25%;
+                                        background: linear-gradient(to right, #c1c9f9, #3551f2);/**/
+                                        border-top-left-radius: 8.5px;
+                                        border-top-right-radius: 0.5px;
+                                    }
+
+                                    .soulign{
+                                        background: transparent;
+                                        box-shadow: 2px 2px 4px 1px#3551f2;
+                                        position: absolute;
+                                        height: 1px;
+                                        width: 94%;
+                                        border: 0px solid #3551f2;
+                                    }
+                                </style>
+
+                    
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+            
+
+        <footer>
+            
+        </footer>
+
+        <div class="container">
+        <div class="copyright">
+            <p><a href="#"><span>&copy;T</span>uma </a> 2023 &#9997;</p><!--&#169;-->
+        </div>
+        </div>
+
+    <script src="./js/js.js"></script>
+
+</body>
+               
+</html>
